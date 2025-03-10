@@ -1,0 +1,7 @@
+what is the capital of ?
+    a) Vienna
+    b) Madrid
+    c) Paris
+    d) Moscow
+
+   Your answer:
