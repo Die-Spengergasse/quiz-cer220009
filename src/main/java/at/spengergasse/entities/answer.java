@@ -1,12 +1,10 @@
 package at.spengergasse.entities;
 
-import com.sun.xml.bind.annotation.OverrideAnnotationOf;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "a_answers")
-public class Answer {
+public class answer {
 @Id
 @GeneratedValue (strategy = GenerationType.IDENTITY)
 @Column(name = "a_id")

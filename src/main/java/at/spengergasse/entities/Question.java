@@ -16,7 +16,7 @@ public class Question {
     private String text;
     @OneToMany
     @JoinColumn(name="fk_q_id")
-    private List<Answer> answerList = new ArrayList<>();
+    private List<answer> answerList = new ArrayList<>();
 
     @Override
     public String toString() {
